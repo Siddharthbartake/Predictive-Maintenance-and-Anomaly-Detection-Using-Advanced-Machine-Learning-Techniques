@@ -15,7 +15,7 @@ The aim of this project is to propose machine learning solutions for predictive 
 There are two datasets used in this project as you can find in the Datasets folder:
 
 # Solution approach
-This project follows the CRISP-DM methodology. Supervised and unsupervised algorithms are used to address set tasks. Please notice that an artificial neuron network (ANN) is not explored in this project.
+This project follows the CRISP-DM methodology. Supervised and unsupervised algorithms are used to address set tasks.
 * Anomaly detection: Local Outlier Factor (LOF), Elliptic Envelope, Isolation Forest, and One-Class Support Vector Machine (SVM) are used.
 * Remaining useful life prediction: Support Vector Machine Regressor is used. For automated machine learning examples, a Tree-based Pipeline Optimization Tool (TPOT) is used. The output best model is evaluated together. Since the data is rather high-dimensional, feature importance analysis is performed to reduce the training size. The feature-reduced version of the dataset is also modeled to compare the computing time and results.
 * Failure prediction: Logistic Regression, KNeighbors Classifier, C-Support Vector Clas- densification with liner kernel, C-Support Vector Classification with RBF kernel, Gaussian Naive Bayes, Decision Tree and Random Forest Classifier are applied.
